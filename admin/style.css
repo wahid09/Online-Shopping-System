@@ -1,0 +1,278 @@
+body  { padding-left:300px;
+	padding-right:500px;
+	padding-top:200px;
+	padding-bottom:0px;
+	}
+	form{
+		background-color:#647488
+	}
+p{
+	font-size:20px;
+	font-style: italic;
+	font-color:red;
+	text-align:center;
+
+}
+p1{
+	font-size:20px;
+	font-style: italic;
+	font-color:#ff34;
+	text-align:left;
+	text-decoration: underline;
+
+}
+h2
+{
+	
+}
+#header{
+	position: absolute;
+	top: 100px;
+width:770px;
+height:40px;
+background-color: #ffffff;
+text-align:center;
+border-bottom: 0px
+}
+#footer{
+	position: absolute;
+	top: 500px;
+	width: 770px;
+	height:40px;
+	background-color: #ffffff;
+	text-align: center;
+}
+#footer1{
+	position: absolute;
+	top: 350px;
+	right:0px;
+	width: 775px;
+	height:40px;
+	background-color: #ffffff;
+	text-align: center;
+}
+/*main page.......................................................................................................*/
+
+body
+{
+background:url(images/bg.jpg) no-repeat #fff center top;
+padding:0;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+margin:0px auto auto auto;
+color:#000;
+}
+p{
+padding:2px;
+margin:0px;
+}
+#main_container{
+width:1000px;
+height:auto;
+margin:auto;
+padding:0px;
+}
+#menu_tab{ 
+position: absolute;
+left:180px;                     
+width:1000px;
+height:50px;
+background-color:#fff;
+}
+.left_menu_corner{
+	position: absolute;
+	left: 80px;
+width:9px;
+height:50px;
+float:left;
+background:url(images/menu_left.gif) no-repeat center;
+}
+.right_menu_corner{
+	position: absolute;
+	right: 100px;
+width:9px;
+height:50px;
+float:left;
+background:url(images/menu_right.gif) no-repeat center;
+}
+ul.menu {
+list-style-type:none; float:left; display:block; width:982px; 
+margin:0px; padding:0px;background:url(images/menu_bg.gif) repeat-x;}
+
+ul.menu li {
+display:inline;
+font-size:11px;
+font-weight:bold;
+line-height:50px;
+}
+ul.menu li.divider {
+display:inline;
+width:2px;
+height:50px;
+float:left;
+background:url(images/menu_divider.gif) no-repeat center;
+}
+
+a.nav1:link, a.nav1:visited {
+display:block; float:left; padding:0px 8px 0px 22px; margin:0 14px 0 14px;height:50px;text-decoration:none; background:url(images/home.png) no-repeat left; color:#676d77;}
+a.nav2:link, a.nav2:visited {
+display:block; float:left; padding:0px 8px 0px 22px; margin:0 14px 0 14px;height:50px;text-decoration:none; background:url(images/services.png) no-repeat left; color:#676d77;}
+a.nav3:link, a.nav3:visited {
+display:block; float:left; padding:0px 8px 0px 22px; margin:0 14px 0 14px;height:50px;text-decoration:none; background:url(images/favs.png) no-repeat left; color:#676d77;}
+a.nav4:link, a.nav4:visited {
+display:block; float:left; padding:0px 8px 0px 22px; margin:0 14px 0 14px;height:50px;text-decoration:none; background:url(images/user_add.png) no-repeat left; color:#676d77;}
+a.nav5:link, a.nav5:visited {
+display:block; float:left; padding:0px 8px 0px 22px; margin:0 14px 0 14px;height:50px;text-decoration:none; background:url(images/car.png) no-repeat left; color:#676d77;}
+a.nav6:link, a.nav6:visited {
+display:block; float:left; padding:0px 8px 0px 22px; margin:0 14px 0 14px;height:50px;text-decoration:none; background:url(images/contact-new.png) no-repeat left; color:#676d77;}
+
+a.nav1:hover, a.nav2:hover, a.nav3:hover, a.nav4:hover, a.nav5:hover, a.nav6:hover {
+color:#333333;}
+
+
+li.currencies{
+width:180px;
+float:left;
+padding:0 0 0 15px;
+_padding:12px 0 0 15px;
+color:#676d77;
+font-size:11px;
+font-weight:bold;
+}
+
+/*End of main page...............................................................*/
+
+body  { padding-left:300px;
+	padding-right:500px;
+	padding-top:0px;
+	padding-bottom:0px;
+	}
+
+table.one
+{
+table-layout: automatic
+}
+p.outset {border-style: outset;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-top:0px;
+	padding-bottom:0px;
+	text-align: left
+}
+
+form {
+background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+margin:auto;
+position:absolute;
+top: 150px;
+
+width:750px;
+height:auto;
+font-family: Tahoma, Geneva, sans-serif;
+font-size: 14px;
+font-style: italic;
+line-height: 24px;
+font-weight: bold;
+color: #09C;
+text-decoration: none;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+padding:10px;
+border: 1px solid #999;
+border: inset 1px solid #333;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+input {
+width:375px;
+display:block;
+border: 1px solid #999;
+height: 25px;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+textarea {
+width:375px;
+height:100px;
+display:block;
+border: 1px solid #999;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+textarea.message {
+display:block;
+}
+button#enviar {
+width:100px;
+position:absolute;
+right:20px;
+bottom:20px;
+background:#09C;
+color:#fff;
+font-family: Tahoma, Geneva, sans-serif;
+height:30px;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+border: 1p solid #999;
+}
+button#enviar:hover {
+background:#fff;
+color:#09C;
+}
+textarea:focus, input:focus {
+border: 1px solid #09C;
+background-color: #ccffff;
+}
+/*End of form............................................................*/
+
+/*table1{
+border-collapse: collapse;
+border: 1px solid black;
+}
+th {
+text-align: left;
+background: gray;
+color: white;
+padding: 0.2em;
+}
+td {
+border: 1px solid black;
+padding: 0.2em;
+}*/
+.link{
+	position: absolute;
+	top: 320px;
+	left: 380px;
+	font-size:16px;
+	border-width:2px;
+	border-style:solid;
+	border-color: whait;
+}
+#header1{
+	position: absolute;
+	top:120px;
+	font-size:22px;
+	border-width: 2px;
+	border-right: 298px;
+	border-left: 298px;
+	border-style: ridge;
+	border-color: gray;
+}
+.footer3{
+	position: absolute;
+	top:250px;
+	left: 600px
+	font-size16px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: gray;
+}
